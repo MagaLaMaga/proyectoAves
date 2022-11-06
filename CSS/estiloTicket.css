@@ -1,0 +1,12 @@
+section{
+    background-image: url(../Imagen/Cardenal\ común.JPG);
+    background-color: rgba(38, 37, 37, 0.534);
+    background-blend-mode: soft-light;
+    background-size: cover;
+}
+article{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 900px;
+    align-items: center;
+}

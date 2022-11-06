@@ -1,0 +1,16 @@
+section{
+    background-image: url(../Imagen/principal.png);
+    background-color: rgba(38, 37, 37, 0.534);
+    background-blend-mode: soft-light;
+    background-size: cover;
+}
+article{
+    display: flex;
+    flex-direction:row-reverse;
+    height: 900px;
+    align-items:center;
+    text-align: center;
+    color: blanchedalmond;
+    font-size: medium;
+    font-style:normal;
+}
