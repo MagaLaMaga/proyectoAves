@@ -97,11 +97,8 @@
           </div>
           <form action="">
             <div class="row mb-3">
-              <div class="col-sm-6">
-                <input class="form-control" type="text" name="nombre" id="nombre" placeholder="Nombre">
-              </div>
-              <div class="col-sm-6">
-                <input class="form-control" type="text" name="nombre" id="nombre" placeholder="Apellido">
+              <div class="col">
+                <input class="form-control" type="text" name="nombre" id="nombre" placeholder="Nombre y apellido">
               </div>
             </div>
             <div class="row mb-3">
@@ -109,6 +106,8 @@
                 <input class="form-control" type="text" name="correo" id="correo" placeholder="correo">
               </div>
             </div>
+            
+           <!--PARTE DEL FORMULARIO PARA JS-->
             <div class="row mb-3">
               <div class="col-sm-6">
                 <label for="cantidad">Cantidad</label>
@@ -117,17 +116,18 @@
               <div class="col-sm-6">
                 <label for="categoria">Categoria</label>
                 <select class="form-select" name="categoria" id="categoria">
-                  <option value="0">Publico general</option>
-                  <option value="80">Avistadores<option>
+                  <option></option>
                   <option value="50">Proteccionistas</option>
                   <option value="15">Jubilados</option>
+                  <option value="0">Publico general</option>
+                  <option value="80">Avistadores</option>
                 </select>
               </div>
             </div>
             <div class="row mb-3">
               <div class="col">
-                <div class="alert alert-primary" role="alert">
-                  Total a pagar: $ <span id="precioPagar">0</span>
+                <div class="alert alert-dark" role="alert">
+                  Total a pagar $ <span id="precioPagar">0</span>
                 </div>
               </div>
             </div>
